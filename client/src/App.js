@@ -15,11 +15,11 @@ import NutrientsQuantity from './Pages/admin/NutrientsQuantity'
 function App() {
   return (
     <div className="App">
-
+ asad
       <BrowserRouter>
         <Routes>
-          <Route exact path='/login' element={<Login />} />
-         
+          {/* <Route exact path='/login' element={<Login />} /> */}
+         ASad 2
         </Routes>
       </BrowserRouter>
     </div>
