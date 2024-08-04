@@ -18,9 +18,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          Asad 2
           <Route exact path='/login' element={<Login />} />
-        
+         
+        </Routes>
       </BrowserRouter>
     </div>
   )
