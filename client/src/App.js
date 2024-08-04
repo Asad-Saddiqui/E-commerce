@@ -18,18 +18,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
+          Asad 2
           <Route exact path='/login' element={<Login />} />
-          <Route path='/' element={<AdminLayout />} >
-            <Route index element={<Dashboard />} />
-            <Route path='profile' element={<Profile />} />
-            <Route path='add-admin' element={<Add_admin />} />
-            {/* <Route path='view-user' element={<View_admin />} /> */}
-            <Route path='Nutrients' element={<Nutrients />} />
-            <Route path='province-Nutrients/:province/:name' element={<ProvinceNutrients />} />
-            <Route path='Nutrients-Source' element={<NutrientsSource />} />
-            <Route path='Nutrients-quantity' element={<NutrientsQuantity />} />
-          </Route>
-        </Routes>
+        
       </BrowserRouter>
     </div>
   )
